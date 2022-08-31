@@ -8,7 +8,7 @@
     "lib": ["es6"],
     "module": "commonjs",
     "allowJs": false,
-    "outDir": "./public",
+    "outDir": "./build",
     "strict": true,
     "removeComments": true,
     "strictPropertyInitialization": true,
