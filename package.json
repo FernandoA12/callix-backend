@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm run build",
     "start": "node build/index.js",
     "test": "jest --watchAll",
     "dev": "export DEBUG=app:*; ts-node-dev --respawn --transpile-only --ignore-watch node_modules index.ts"
